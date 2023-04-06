@@ -3,7 +3,6 @@
 按下k1,向sdram写入512个数据
 按下k2,读出一页数据，通过串口显示到pc
 按下k3,bank+1
-
 */
 module data_ctrl(
     //global clock
