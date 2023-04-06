@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cke",
+					"strict" : false
+				},
+				{
+					"name" : "ras",
+					"strict" : false
+				},
+				{
+					"name" : "cas",
+					"strict" : false
+				},
+				{
+					"name" : "we",
+					"strict" : false
+				},
+				{
+					"name" : "dqm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dqm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_bank[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_bank[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "key[2]",
+					"strict" : false
+				},
+				{
+					"name" : "key[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key[0]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
