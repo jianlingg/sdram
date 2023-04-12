@@ -28,6 +28,9 @@ module key
     output  reg key_vld 
 );
 
+    reg  [1:0] key_s;
+    wire up_edge = key_s == 2'b01;
+    wire dw_edge = key_s == 2'b10;
 
     reg [2:0]state_c;
     reg [2:0]state_n;
@@ -48,9 +51,6 @@ module key
     localparam  wat = 3;
     localparam  upx = 4;
 
-    reg  [1:0] key_s;
-    wire up_edge = key_s == 2'b01;
-    wire dw_edge = key_s == 2'b10;
 //key signal 流转两个寄存器，为检测边沿
 always  @(posedge clk)begin
     key_s <= {key_s[0],key};
